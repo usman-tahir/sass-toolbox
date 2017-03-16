@@ -87,3 +87,17 @@ p {
   -o-animation: slide-down 5s 3;
   animation: slide-down 5s 3;
 }
+
+/* line 41, ../sass/style.scss */
+a {
+  color: gray;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+/* line 44, ../sass/style.scss */
+a:hover {
+  color: black;
+}

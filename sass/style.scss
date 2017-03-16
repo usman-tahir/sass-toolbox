@@ -37,3 +37,11 @@ p {
   background: black;
   @include animation('slide-down 5s 3');
 }
+
+a {
+  color: gray;
+  @include transition(color 0.3s ease);
+  &:hover {
+    color: black;
+  }
+}
