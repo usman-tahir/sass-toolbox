@@ -1,10 +1,25 @@
 /* line 4, ../sass/style.scss */
+body {
+  background-image: url(../img/sample.svg);
+}
+/* line 34, ../sass/_mixins.scss */
+.no-svg body {
+  background-image: url(../img/sample.png);
+}
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 34, ../sass/_mixins.scss */
+  .no-svg body {
+    background-image: url(../img/sample@2x/png);
+  }
+}
+
+/* line 8, ../sass/style.scss */
 p {
   font-size: 14px;
   font-size: 0.875rem;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 .sidebar {
   width: 60%;
   float: left;
@@ -13,7 +28,7 @@ p {
   text-align: center;
 }
 @media only screen and (max-width: 30em) {
-  /* line 8, ../sass/style.scss */
+  /* line 12, ../sass/style.scss */
   .sidebar {
     width: 100%;
     float: none;

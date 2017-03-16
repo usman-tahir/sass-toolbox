@@ -1,6 +1,10 @@
 
 @import "mixins";
 
+body {
+  @include background-image('sample'); // Image name would go here
+}
+
 p {
   @include font-size(14px);
 }
