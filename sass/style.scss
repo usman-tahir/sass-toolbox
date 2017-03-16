@@ -4,3 +4,16 @@
 p {
   @include font-size(14px);
 }
+
+.sidebar {
+  width: 60%;
+  float: left;
+  margin: 0 2% 0 0;
+  background-color: #ffff99;
+  text-align: center;
+  @include bp-small {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+}
