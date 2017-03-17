@@ -1,3 +1,17 @@
+/* line 7, ../sass/_functions.scss */
+.floated-with-container {
+  *zoom: 1;
+}
+/* line 9, ../sass/_functions.scss */
+.floated-with-container:before, .floated-with-container:after {
+  content: " ";
+  display: table;
+}
+/* line 13, ../sass/_functions.scss */
+.floated-with-container:after {
+  clear: both;
+}
+
 /* line 4, ../sass/style.scss */
 body {
   background-image: url(../img/sample.svg);
@@ -106,4 +120,9 @@ a:hover {
 .faded-text {
   opacity: 0.8;
   filter: alpha(opacity=80);
+}
+
+/* line 53, ../sass/style.scss */
+.floated-with-container {
+  background-color: lightgray;
 }

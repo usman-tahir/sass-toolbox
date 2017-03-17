@@ -49,3 +49,8 @@ a {
 .faded-text {
   @include opacity(0.8);
 }
+
+.floated-with-container {
+  @extend %clearfix;
+  background-color: lightgray; // Demo background
+}
