@@ -45,3 +45,7 @@ a {
     color: black;
   }
 }
+
+.faded-text {
+  @include opacity(0.8);
+}
