@@ -54,3 +54,7 @@ a {
   @extend %clearfix;
   background-color: lightgray; // Demo background
 }
+
+.visually-hidden {
+  @extend %visually-hidden;
+}
